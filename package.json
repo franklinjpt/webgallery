@@ -1,0 +1,30 @@
+{
+  "name": "webgallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franklinjpt/webgallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franklinjpt/webgallery/issues"
+  },
+  "homepage": "https://github.com/franklinjpt/webgallery#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "pug": "^3.0.2",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
